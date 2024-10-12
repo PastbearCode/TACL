@@ -13,6 +13,17 @@ enum Colors {
     White = "\x1b[0;37m"
 }
 
+enum Dim {
+    Black = "\x1b[2;30m",
+    Red = "\x1b[2;31m",
+    Green = "\x1b[2;32m",
+    Yellow = "\x1b[2;33m",
+    Blue = "\x1b[2;34m",
+    Magenta = "\x1b[2;35m",
+    Cyan = "\x1b[2;36m",
+    White = "\x1b[2;37m"
+}
+
 enum Bold {
     Black = "\x1b[1;30m",
     Red = "\x1b[1;31m",
