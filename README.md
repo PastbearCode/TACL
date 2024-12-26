@@ -3,7 +3,7 @@ A very very simple terminal ansi color library.
 
 ## How to color your text
 ```d
-import std.io;
+import std.stdio;
 import tacl;
 
 void main() {
